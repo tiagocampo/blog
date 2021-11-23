@@ -10,9 +10,9 @@ title: Tiago Campos' Blog
 
 # Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
 # Avatar for light mode site
-lightavatar: /assets/images/light_bauhaus_logo.png
+lightavatar: /assets/images/avatar.jpg
 # Avatar for dark mode site
-darkavatar: /assets/images/dark_bauhaus_logo.png
+darkavatar: /assets/images/avatar.jpg
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
 tagline: Minimalistic Jekyll theme that automatically supports dark and light modes for blogs
@@ -33,7 +33,7 @@ baseurl: /blog
 author: Tiago de Campos
 
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_bauhaus_logo.png
+logo: /assets/images/avatar.png
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -44,10 +44,12 @@ permalink: /:year/:month/:day/:title/
 footer-links:
   email: tiagocampos@gmail.com
   github: tiagocampo
-  #linkedin: andrewhwanpark
+  linkedin: tiago-de-campos-a77827a5
   twitter: deCamposTiago
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+markdown: kramdown
