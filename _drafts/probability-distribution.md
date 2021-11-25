@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Probability distribution
-tag: statistics
+tags: statistics
 mathjax: true
 description: 
 ---

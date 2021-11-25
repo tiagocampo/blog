@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Probability density function
-tag: statistics
+tags: statistics
 mathjax: true
 description: A probability density function (PDF) is a function whose value at any given sample (or point) in the sample space can be interpreted as providing a _relative likelihood_ that the value of the random variable would be close to that sample. In other words, while the _absolute likelihood_ for a continuous random variable to take on any particular value is 0, the value of the PDF at two different samples can be used to infer how much  likely it is that the random variable would be close to one sample compared to the other sample.
 ---
