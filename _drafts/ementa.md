@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Random Variables
+title: ementa
 category: statistics
 ---
 

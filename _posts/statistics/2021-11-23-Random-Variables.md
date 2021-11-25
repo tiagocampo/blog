@@ -29,7 +29,7 @@ Any random variable can ne described by its **cumulative distribution function**
 
 If a random variable \\( X : \Omega \rightarrow \mathbb{R} \\) is given, we can ask questions like "How likely is it that the value of \\( X = 2\\)?". This is the same as the probability of the event \\( \{ \omega:X\left(\omega\right)=2\} \\) which is often written as \\(P\left(X=2\right)\\) or \\(p_X(2)\\).
 
-Recording all these probabilities of output ranges of a real-valued random variable \\(X\\) yields the probability distribution of \\(X\\). The probability distribution "forgets"about the particular probability space used to define \\(X\\) and only records the probabilities of various values of \\(X\\). Such a probability distribution can always be captures by its cumulative distribution function
+Recording all these probabilities of output ranges of a real-valued random variable \\(X\\) yields the probability distribution of \\(X\\). The probability distribution "forgets" about the particular probability space used to define \\(X\\) and only records the probabilities of various values of \\(X\\). Such a probability distribution can always be captures by its cumulative distribution function
 
 $$ F_{X}\left(x\right)=P\left(X\leq x\right) $$
 
@@ -65,6 +65,6 @@ An example would be one based on a spinner that can choose a horizontal directio
 
 ## References
 
-- [Khan Academy](https://www.youtube.com/watch?v=dOr0NKyD31Q&list=PLU5aQXLWR3_xDN0M2ZeZ_zHIia0e42_3O){:target="_blank"}
+- [Khan Academy](https://www.youtube.com/c/khanacademy){:target="_blank"}
 - [Wikipedia](https://en.wikipedia.org/wiki/Random_variable){:target="_blank"}
    
