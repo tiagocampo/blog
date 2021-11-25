@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "github-pages", "~> 215", group: :jekyll_plugins
 gem "webrick", "~> 1.7"
+gem 'jekyll-tagging-related_posts'
 
 group :jekyll_plugins do
   gem 'jekyll-seo-tag'
