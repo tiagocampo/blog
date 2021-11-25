@@ -47,6 +47,15 @@ $$F_{X}\left(x\right)=\begin{cases}
 1: & x>1
 \end{cases}$$
 
+<br/><br/>
+<div class="card center-image" style="max-width: 20rem;">
+  <img src="{{site.baseurl}}/assets/images/fig1_CDF.svg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">From top to bottom, the CFD of a discrete probability distribution and of a continuous probability distribution.</p>
+  </div>
+</div>
+
+
 ## References
 
 - [Khan Academy](https://www.youtube.com/c/khanacademy){:target="_blank"}
