@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="600"
+   height="210"
+   viewBox="0 -12.5 40 14">
+  <defs>
+    <style type="text/css">
+        path {stroke:#FF0000; stroke-width:0.3px; fill:none}
+        .base {stroke:#0000FF; stroke-width:0.25px; fill:none}
+	text {font-size:3px; font-family:'Serif'; font-style:normal; font-weight:normal; fill:#000000;}
+    </style>
+  </defs>
+  <g>
+    <line class="base" x1="2" x2="40" y1="0" y2="0"/>
+    <text x="0.125" y="0.6">0</text>
+  </g>
+  <g>
+    <line class="base" x1="1.6" x2="40" y1="-10" y2="-10"/>
+    <text x="0.125" y="-9.4">1</text>
+  </g>
+  <path d="M2,0 C4,0,6,0.011057,8,-0.023388 C10,-0.057833,
+	12,-0.094651,14,-0.786496 C18,-2.170187,22,-7.829813,26,-9.213504 C28,-9.905349,
+	30,-9.942167,32,-9.976612 C34,-10.011057,36,-10,38,-10 L40,-10"/>
+</svg>
