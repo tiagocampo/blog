@@ -6,6 +6,12 @@ mathjax: true
 description: The cumulative distribution function (CFD) of a real-valued random variable X, evaluated at x, is the probability that X will take a value less than or equal to x.
 ---
 
+* Do not remove this line (it will not be displayed)
+{:toc}
+
+---
+
+
 ## Definition
 
 The cumulative distribution function (CFD) of a real-valued random variable \\(X\\), evaluated at \\(x\\), is the probability that \\(X\\) will take a value less than or equal to \\(x\\).

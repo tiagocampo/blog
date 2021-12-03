@@ -6,6 +6,11 @@ mathjax: true
 description: Here we discuss and compare expected value (or mean), median and mode
 ---
 
+* Do not remove this line (it will not be displayed)
+{:toc}
+
+---
+
 # Introductin
 
 There are some quantities that are often used to described _macro_ characteristics of probabilities distributions. Such properties will be discussed bellow.
@@ -142,7 +147,7 @@ We can see better in the figure below, assuming $$\mu = 0$$
 </div>
 <br/>
 
-## References
+# References
 
 - [Wikipedia Expected Value](https://en.wikipedia.org/wiki/Expected_value){:target="_blank"}
 - [Wikipedia Median](https://en.wikipedia.org/wiki/Median){:target="_blank"}

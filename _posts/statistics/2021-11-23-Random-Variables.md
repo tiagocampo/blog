@@ -5,6 +5,12 @@ tags: statistics machinelearning
 mathjax: true
 description: A random variable is a variable whose values depend on outcomes of a random phenomenon. Instead of a so called _normal_ variable, the random variable's possible values might represent the possible outcomes of a yet-to-be-performed experiment, or of a past experiment whose already-existing value is uncertain.
 ---
+
+* Do not remove this line (it will not be displayed)
+{:toc}
+
+---
+
 ## Definition
 
 A random variable is a variable whose values depend on outcomes of a random phenomenon. Instead of a so called _normal_ variable, the random variable's possible values might represent the possible outcomes of a yet-to-be-performed experiment, or of a past experiment whose already-existing value is uncertain. They may also conceptually represent either the results of an _objectively_ random process (such as rolling a die) or the _subjective_ randomness that results from incomplete knowledge of a quantity.

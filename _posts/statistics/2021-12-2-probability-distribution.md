@@ -6,6 +6,11 @@ mathjax: true
 description: A probability distribution is a mathematical description of the probabilities of events, subsets of the sample space. The sample space is the set of all possible outcomes of a random phenomenon being observed.
 ---
 
+* Do not remove this line (it will not be displayed)
+{:toc}
+
+---
+
 ## Introduction
 
 A probability distribution is a mathematical description of the probabilities of events, subsets of the sample space. The sample space, often denoted by \\(\Omega\\), is the set of all possible outcomes of a random phenomenon being observed.
