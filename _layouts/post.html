@@ -17,7 +17,7 @@ layout: default
 <br/>
 
 {% assign maxRelated = 4 %}
-{% assign minCommonTags =  1 %}
+{% assign minCommonTags =  2 %}
 {% assign maxRelatedCounter = 0 %}
   <ul>
   {% for post in site.posts %}
@@ -38,7 +38,8 @@ layout: default
     {% if sameTagCount >= minCommonTags %}
 
         <li>
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
+      <!-- <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5> -->
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
       </li>
 
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}

@@ -59,18 +59,18 @@ Equivalently to the above, a discrete random variable can be defined as a random
 
 A continuous probability distribution is a probability distribution whose support is an uncountable set, such as an interval in the real line. They are uniquely characterized by a CDF that can be used to calculate the probability for each subset of the support. There are many examples of continuous probability distributions: normal, uniform, chi-squared, and others.
 
-A random variable \(X\) has a continuous probability distribution if there is a function \( f:\mathbb{R}\rightarrow\left[0,\infty\right]  \) such that for each interval \(I\subset\mathbb{R}\) the probability of \(X\) belonging to \(I\) is given by the integral of \(f\) over \(I\). For example, \(I=\left[a,b\right]\), then we would have
+A random variable \\( X \\) has a continuous probability distribution if there is a function $$ f:\mathbb{R}\rightarrow\left[0,\infty\right]  $$ such that for each interval \\(I\subset\mathbb{R}\\) the probability of \\(X\\) belonging to \\(I\\) is given by the integral of \\(f\\) over \\(I\\). For example, \\(I=\left[a,b\right]\\), then we would have
 
 $$P\left[a\leq X\leq b\right]=\int_{a}^{b}f\left(x\right)\textrm{d}x$$
 
-In particular, the probability for \(X\) to take any single value (\a\) is zero. 
+In particular, the probability for \\(X\\) to take any single value (\a\\) is zero. 
 ### Cumulative distribution function
 
 A variable that satisfies the above is called a continuous random variable. Its CDF is defined as
 
 $$F\left(X\right)=P\left[-\infty\leq X\leq x\right]=\int_{\infty}^{x}f\left(x\right)\textrm{d}x$$
 
-which has, among other properties, the property that \(F\left(X\right)\) is non-decreasing as shown in the figure below.
+which has, among other properties, the property that \\(F\left(X\right)\\) is non-decreasing as shown in the figure below.
 
 <br/>
 <div class="card center-image" style="max-width: 40rem;">

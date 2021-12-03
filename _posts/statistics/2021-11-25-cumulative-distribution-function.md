@@ -14,7 +14,7 @@ The CFD of a real-valued random variable \\(X\\) is the function given by:
 
 $$ F_{X}\left(x\right)=P\left(X\leq x\right) $$
 
-where the right-hand side represents the probability that the random variable \\(X\\) takes on a value less than or equal to \\(x\\). The probability that \\(X\\) lies in the semi-close internal \\( \left[0,180\right) \\), where \\(a \ lt b\\), is therefore
+where the right-hand side represents the probability that the random variable \\(X\\) takes on a value less than or equal to \\(x\\). The probability that \\(X\\) lies in the semi-close internal \\( \left[0,180\right) \\), where $$a \lt b$$, is therefore
 
 $$ P\left(a \lt X \le b\right)=F_{X}\left(b\right)-F_{X}\left(a\right) $$
 

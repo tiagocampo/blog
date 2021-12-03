@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h1 class="text-center text-warning bg-dark">Hello, this is my personal Blog. It comes with no warranty!</h1>
+
 <!-- <div class="archive">
   {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
   if currDate != date %}
@@ -24,9 +26,9 @@ layout: default
   {% for post in paginator.posts %} 
   <div class="col p-2">
     <div class="card" style="min-width: 20rem;">
-      <div class="card-body">
+      <div class="card-body btn-outline-secondary">
         <h5 class="card-title">{{post.title}}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%B %d, %Y" }}</h6>
+        <h6 class="card-subtitle mb-2 ">{{ post.date | date: "%B %d, %Y" }}</h6>
         <p class="card-text">{{post.description}}</p>
         <a href="{{ post.url | relative_url }}" class="card-link">View full post</a>
       </div>
@@ -38,7 +40,7 @@ layout: default
 <!--
   https://jekyllrb.com/docs/pagination/
   https://www.tomordonez.com/jekyll-pagination/
--->
+
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -64,5 +66,50 @@ layout: default
     <span>Next &raquo;</span>
   {% endif %}
 </div>
+{% endif %}
+-->
+
+{% if paginator.total_pages > 1 %}
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+
+    {% if paginator.previous_page %}
+    <li class="page-item">
+      <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    {% else %}
+    <li class="page-item">
+        <span class="page-link" aria-hidden="true">&laquo;</span>
+    </li>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+
+      {% if page == paginator.page %}
+        <li class="page-item active"><a class="page-link" >{{ page }}</a></li>
+      {% elsif page == 1 %}
+        <li class="page-item"><a class="page-link" href="{{ '/' | relative_url }}">{{ page }}</a></li>
+      {% else %}
+        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
+      {% endif %}
+  
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">
+         <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    {% else %}
+      <li class="page-item">
+        <span class="page-link" aria-hidden="true">&raquo;</span>
+      </li>
+    {% endif %}
+
+  </ul>
+</nav>
 {% endif %}
 

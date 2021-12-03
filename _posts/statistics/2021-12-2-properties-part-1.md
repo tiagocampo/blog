@@ -12,19 +12,19 @@ There are some quantities that are often used to described _macro_ characteristi
 
 ## Expected value (or mean)
 
-The expected value of a random variable \(X\), often denoted as \(E(X)\), is a generalization of the weighted average, and is intuitively the arithmetic mean of a large number of independent realizations of \(X\). The expected value is also known as the expectation, mean, average or first moment.
+The expected value of a random variable \\(X\\), often denoted as \\(E(X)\\), is a generalization of the weighted average, and is intuitively the arithmetic mean of a large number of independent realizations of \\(X\\). The expected value is also known as the expectation, mean, average or first moment.
 
 ### Discrete case
 
-Let \(X\) be a discrete random variable with a finite number of finite outcomes $x_1, x_2, \cdots,x_k$ occurring with probabilities $p_1,p_2,\cdots,p_k$ respectively. The expectation of \(X\) is defined as
+Let \\(X\\) be a discrete random variable with a finite number of finite outcomes $$x_1, x_2, \cdots,x_k$$ occurring with probabilities $$p_1,p_2,\cdots,p_k$$ respectively. The expectation of \\(X\\) is defined as
 
 $$E\left(X\right)=\sum_{i=1}^{k}x_{i}p_{i}=x_{1}p_{1}+x_{2}p_{2}+\cdots+x_{k}p_{k}$$
 
-Since $p_1+p_2+\cdots+p_k=1$, the expected values is the weighted sum of the \(x_i\) values, with the probabilities \(p_i\) as weights.
+Since $$p_1+p_2+\cdots+p_k=1$$, the expected values is the weighted sum of the \\(x_i\\) values, with the probabilities \\(p_i\\) as weights.
 
 ### Absolutely continuous case
 
-If \(X\) is a random variable with a probability density function of \(f\left(x\right)\), then the expected value is defined as
+If \\(X\\) is a random variable with a probability density function of \\(f\left(x\right)\\), then the expected value is defined as
 
 $$E\left(X\right)=\int xf\left(x\right)\textrm{d}x$$
 
@@ -32,11 +32,11 @@ $$E\left(X\right)=\int xf\left(x\right)\textrm{d}x$$
 
 #### Roll of dice
 
-Let \(X\) represent the outcome of a roll of a fair six-sided die. The possible values for \(X\) are 1, 2, 3, 4, 5 and 6, all of which are equally likely to occur with a probability of \(\frac{1}{6}\). The expectation of \(X\) is
+Let \\(X\\) represent the outcome of a roll of a fair six-sided die. The possible values for \\(X\\) are 1, 2, 3, 4, 5 and 6, all of which are equally likely to occur with a probability of \\(\frac{1}{6}\\). The expectation of \\(X\\) is
 
 $$E\left(X\right)=1\cdot\frac{1}{6}+2\cdot\frac{1}{6}+3\cdot\frac{1}{6}+4\cdot\frac{1}{6}+5\cdot\frac{1}{6}+6\cdot\frac{1}{6}=3.5$$
 
-If one rolls the die \(n\) times and computes the average (arithmetic mean) of the results, then as \(n\) grows, the average will almost surely converge to the expected value, a fact known as the strong law of large numbers. See in the figure bellow an illustration of the convergence cited above.
+If one rolls the die \\(n\\) times and computes the average (arithmetic mean) of the results, then as \\(n\\) grows, the average will almost surely converge to the expected value, a fact known as the strong law of large numbers. See in the figure bellow an illustration of the convergence cited above.
 
 <br/>
 <div class="card center-image" style="max-width: 40rem;">
@@ -49,19 +49,19 @@ If one rolls the die \(n\) times and computes the average (arithmetic mean) of t
 
 #### Roulette game
 
-Suppose random variable \(X\) represents the (monetary) outcome of a $1 bet on a single number. If the bet wins (which happens with probability $\frac{1}{38}$, the payoff is $35; otherwise the player loses the bet. The expected profit from such a bet will be
+Suppose random variable \\(X\\) represents the (monetary) outcome of a $1 bet on a single number. If the bet wins (which happens with probability $$\frac{1}{38}$$, the payoff is $35; otherwise the player loses the bet. The expected profit from such a bet will be
 
 $$E\left(\textrm{gain from \$1 bet}\right)=-\$1\cdot\frac{37}{38}+\$35\cdot\frac{1}{38}=-\$\frac{1}{19}$$
 
-That is, the bet of $1 standsto lose $ -\frac{1}{19} $, so its expected value is \(-$\frac{1}{19}\).
+That is, the bet of $1 standsto lose \\(-$\frac{1}{19}\\), so its expected value is \\(-$\frac{1}{19}\\).
 
 #### Countably infinite case
 
-Let \(X\) be a non-negative random variable with a countable set of outcomes \(x_1,x_2,\cdots\), occurring wth probabilities \(p_1,p_2,\cdots\), respectively. Analogous to the discrete case, the expected value of \( X \) is then defined as the series
+Let \\(X\\) be a non-negative random variable with a countable set of outcomes \\(x_1,x_2,\cdots\\), occurring wth probabilities \\(p_1,p_2,\cdots\\), respectively. Analogous to the discrete case, the expected value of \\( X \\) is then defined as the series
 
 $$E\left(X\right)=\sum_{i=1}^{\infty}x_{i}p_{i}$$
 
-Note that since \(x_i p_i \geq 0\), the infinite sum is well-defines and does not depend on the order in which it is computed. Unlike the finite case, the expectation here can be equal to infinity, if the infinite sum above increases without bonds.
+Note that since \\(x_i p_i \geq 0\\), the infinite sum is well-defines and does not depend on the order in which it is computed. Unlike the finite case, the expectation here can be equal to infinity, if the infinite sum above increases without bonds.
 
 The genera case is more complex and it will be not discussed here.
 
@@ -78,13 +78,13 @@ If the data set has an even number of observation, there is no distinct middle v
 
 ### Probability distributions
 
-For any real-valued probability distribution with cumulative distribution function \(F\), a median is defined as any real number \(m\) that satisfies the inequalities $$\int_{\left(-\infty,m\right]}\textrm{d}F\left(X\right)\geq\frac{1}{2}$$ and $$\int_{\left[m,\infty\right)}\textrm{d}F\left(X\right)\geq\frac{1}{2}$$
+For any real-valued probability distribution with cumulative distribution function \\(F\\), a median is defined as any real number \\(m\\) that satisfies the inequalities $$\int_{\left(-\infty,m\right]}\textrm{d}F\left(X\right)\geq\frac{1}{2}$$ and $$\int_{\left[m,\infty\right)}\textrm{d}F\left(X\right)\geq\frac{1}{2}$$
 
 ## Mode
 
-The **mode** is the value that appears most often in a set of data values. If \(X\) is a discrete random variable, the mode is the value \(x\) at which the probability mass function takes its maximum value. In other words, it is the value that is most likely to be sampled.
+The **mode** is the value that appears most often in a set of data values. If \\(X\\) is a discrete random variable, the mode is the value \\(x\\) at which the probability mass function takes its maximum value. In other words, it is the value that is most likely to be sampled.
 
-The mode is not necessarily unique to a given distribution, since the probability mass function may take the same maximum value at several points \(x_1,x_2\), etc. The most extreme case occurs in uniform distributions, where all values occur equally frequently.
+The mode is not necessarily unique to a given distribution, since the probability mass function may take the same maximum value at several points \\(x_1,x_2\\), etc. The most extreme case occurs in uniform distributions, where all values occur equally frequently.
 
 When the probability density function of a continuous distribution has multiple maxima it is common to refer to all of the local maxima as modes of the distribution.
 
@@ -113,9 +113,9 @@ For a sample from a continuous distribution the concept is unusable in its raw f
 
 # Example for a skewed distribution
 
-A well-known class of distributions that can be arbitrarily skewed is given by the log-normal distribution. It is obtained by transforming a random variable (\X\) having a normal distribution into random variable $$Y = e^X$$. Then the logarithm of random variable \(Y\) is normally distributed, hence the name. 
+A well-known class of distributions that can be arbitrarily skewed is given by the log-normal distribution. It is obtained by transforming a random variable \\(X\\) having a normal distribution into random variable $$Y = e^X$$. Then the logarithm of random variable \\(Y\\) is normally distributed, hence the name. 
 
-When \(X\) has standard deviation $$\sigma = 0.25$$, the distribution of \(Y\) is weakly skewed
+When \\(X\\) has standard deviation $$\sigma = 0.25$$, the distribution of \\(Y\\) is weakly skewed
 
 $$\begin{cases}
 \textrm{mean} & e^{\mu+\sigma^{2}/2}\approx1.032\\
@@ -123,7 +123,7 @@ $$\begin{cases}
 \textrm{median} & e^{\mu}\approx1
 \end{cases}$$
 
-When \(X\) has large standard deviation, $$\sigma = 1$$, the distribution of \(Y\) is strongly skewed
+When \\(X\\) has large standard deviation, $$\sigma = 1$$, the distribution of \\(Y\\) is strongly skewed
 
 $$\begin{cases}
 \textrm{mean} & e^{\mu+\sigma^{2}/2}\approx1.649\\
@@ -144,6 +144,6 @@ We can see better in the figure below, assuming $$\mu = 0$$
 
 ## References
 
-- [Wikipedia]https://en.wikipedia.org/wiki/Expected_value){:target="_blank"}
-- [Wikipedia](https://en.wikipedia.org/wiki/Median){:target="_blank"}
-- [Wikipedia](https://en.wikipedia.org/wiki/Mode_(statistics)){:target="_blank"}
+- [Wikipedia Expected Value](https://en.wikipedia.org/wiki/Expected_value){:target="_blank"}
+- [Wikipedia Median](https://en.wikipedia.org/wiki/Median){:target="_blank"}
+- [Wikipedia Mode](https://en.wikipedia.org/wiki/Mode_(statistics)){:target="_blank"}

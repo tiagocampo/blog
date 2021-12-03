@@ -12,19 +12,19 @@ A probability density function (PDF) is a function whose value at any given samp
 
 In a more precise sense, the PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value. This probability is given by the integral of this variable's PDF over that range. The probability density function is nonnegative everywhere, and its integral over the entire space is equal to 1. 
 
-A PDF is most commonly associated with absolutely continuous univariate distributions. A random variable \\(X\\) has density \\(\f_X\), where \\(f_X\\) is a non-negative integrable function, if:
+A PDF is most commonly associated with absolutely continuous univariate distributions. A random variable $$X$$ has density $$f_X$$, where $$f_X$$ is a non-negative integrable function, if:
 
 $$\textrm{Pr}\left[a\le X\le b\right]=\int_{a}^{b}f_{X}\left(x\right)\textrm{d}x$$
 
-Hence, if \\(F_X\\) is the CDM of \\(X\\), then
+Hence, if $$F_X$$ is the CDM of $$X$$, then
 
 $$F_{X}=\int_{-\infty}^{x}f_{X}\left(u\right)\textrm{d}u$$
 
-and (if \\(f_X\\) is continuous at x)
+and (if $$f_X$$ is continuous at x)
 
 $$f_{X}\left(x\right)=\frac{\textrm{d}}{\textrm{d}x}F_{X}\left(x\right)$$
 
-Intuitively, one can think of \\(f_X\left(x\right)\textrm{d}x\\) as being the probability of \\(X\\) falling within the infinitesimal interval \\(\left[x,x+\textrm{d}x\right]\\).
+Intuitively, one can think of $$f_X\left(x\right)\textrm{d}x$$ as being the probability of $$X$$ falling within the infinitesimal interval $$\left[x,x+\textrm{d}x\right]$$.
 ## References
 
 - [Khan Academy](https://www.youtube.com/c/khanacademy){:target="_blank"}
