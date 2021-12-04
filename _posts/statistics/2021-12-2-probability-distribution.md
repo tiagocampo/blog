@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Probability distribution
-tags: statistics machinelearning
+tags: statistics machine-learning
 mathjax: true
 description: A probability distribution is a mathematical description of the probabilities of events, subsets of the sample space. The sample space is the set of all possible outcomes of a random phenomenon being observed.
 ---

@@ -4,6 +4,10 @@ layout: default
 
 <h1 class="text-center text-warning bg-dark">Hello, this is my personal Blog. It comes with no warranty!</h1>
 
+<hr>
+<h1 class="text-center">Blog Posts</h1>
+<hr>
+
 <!-- <div class="archive">
   {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
   if currDate != date %}
@@ -24,9 +28,9 @@ layout: default
 
 <div class="row">
   {% for post in paginator.posts %} 
-  <div class="col p-2">
-    <div class="card" style="min-width: 20rem;">
-      <div class="card-body btn-outline-secondary">
+  <div class="col p-2 ">
+    <div class="card shadow p-3 mb-5 bg-body rounded" style="min-width: 20rem;">
+      <div class="card-body">
         <h5 class="card-title">{{post.title}}</h5>
         <h6 class="card-subtitle mb-2 ">{{ post.date | date: "%B %d, %Y" }}</h6>
         <p class="card-text">{{post.description}}</p>
