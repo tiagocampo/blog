@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cumulative distribution function
-tags: statistics machine-learning
+tags: statistics theory machine-learning
 mathjax: true
 description: The cumulative distribution function (CFD) of a real-valued random variable X, evaluated at x, is the probability that X will take a value less than or equal to x.
 ---

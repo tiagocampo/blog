@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Distributions' properties part 2
-tags: statistics machine-learning
+tags: statistics theory machine-learning
 mathjax: true
 description: Here we discuss about variance, covariance, standard deviation and quantiles
 ---

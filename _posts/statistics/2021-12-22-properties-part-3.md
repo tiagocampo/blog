@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Distributions' properties part 3
-tags: statistics machine-learning
+tags: statistics theory machine-learning
 mathjax: true
 description: Here we define cumulant, skewness and kurtosis
 ---
@@ -71,6 +71,6 @@ where \\(\mu_4\\) is the fourth central moment and \\(\sigma\\) is the standard 
  
 # References
 
-- [Wikipedia Cumulants]https://en.wikipedia.org/wiki/Cumulant){:target="_blank"}
+- [Wikipedia Cumulants](https://en.wikipedia.org/wiki/Cumulant){:target="_blank"}
 - [Wikipedia Skewness](https://en.wikipedia.org/wiki/Skewness){:target="_blank"}
 - [Wikipedia Kurtosis](https://en.wikipedia.org/wiki/Kurtosis){:target="_blank"}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Distributions' properties part 1
-tags: statistics machine-learning
+tags: statistics theory machine-learning
 mathjax: true
 description: Here we discuss and compare expected value (or mean), median and mode
 ---
