@@ -6,9 +6,7 @@ category: statistics
 
 Avaliação de Modelos 
  
-• Métricas de avalição de modelo: KS, Gini, AUC, RMSE, MAE, F1, Recall, Precision, R2 
-• Validações holdout, leave one out, k-fold, out of sample, out of time 
-Data Prep  
+• Validações holdout, leave one out, k-fold, out of sample, out of time  
  
 Classificação 
  
@@ -24,7 +22,7 @@ Classificação
 Regressão  
  
 1. Regressão linear 
-2. Regularização L1 e L2 
+2. Regularização L1 e L2 (lasso and ridge)
 3. Árvore de regressão 
 4. Análise de resíduos 
 5. Modelos lineares generalizados (GLM) 
